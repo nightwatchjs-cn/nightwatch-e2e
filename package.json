@@ -1,0 +1,29 @@
+{
+  "name": "nightwatch-e2e",
+  "version": "0.0.1",
+  "nightwatchVersion": "v0.9.14",
+  "description": "Nightwatch e2e testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint && node ./nightwatch.js",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --color -c .eslintrc tests/ --ignore-path .eslintignore"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nightwatchjs-cn/nightwatch-e2e.git"
+  },
+  "keywords": [
+    "nightwatch",
+    "e2e"
+  ],
+  "author": "Xianpeng Shen",
+  "license": "MIT",
+  "homepage": "http://nightwatchjs.org/",
+  "dependencies": {
+    "env2": "^2.2.0",
+    "eslint": "^4.6.1",
+    "nightwatch": "^1.0.6",
+    "selenium-download": "^2.0.12"
+  }
+}
