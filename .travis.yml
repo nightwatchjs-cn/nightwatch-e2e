@@ -13,4 +13,4 @@ before_script:
   - node nightwatch.conf.js
 
 script:
-  - xvfb-run npm test
+  - npm test

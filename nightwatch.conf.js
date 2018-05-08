@@ -33,7 +33,7 @@ const config = {
         "browserName": "chrome",
         "acceptSslCerts": true,
         "chromeOptions" : {
-          "args" : ["headless"] //chrome, headless
+          "args" : ['headless', 'no-sandbox'] //chrome, headless
         }
       },
 
