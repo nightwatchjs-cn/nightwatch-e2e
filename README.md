@@ -13,15 +13,15 @@ Development
 $ git clone git@github.com:nightwatchjs-cn/nightwatch-e2e.git
 $ cd nightwatch-e2e
 $ npm install
-$ node nightwatch.conf.js               // install webdriver and selenium
-$ cp sample.env .env                    // copy a sample environment and change the environment variables to connect to Nightwatch
+$ node nightwatch.conf.js               // download webdriver and selenium
+$ cp sample.env .env                    // copy sample environment and change the environment variables to run test
 ```
 
 ### Run the e2e test scrpits
 ```
 $ npm test                              // Run whole test
-$ npm test tests/TC/TC45/login.js    // Run certain test
-$ npm test tests/TC/TC45             // Run a group of test
+$ npm test tests/TC/TC45/login.js       // Run certain test
+$ npm test tests/TC/TC45                // Run a group of test
 
 Offial command usage bellow
 
