@@ -13,4 +13,4 @@ before_script:
   - node nightwatch.conf.js
 
 script:
-  - npm test
+  - npm test --verbose
