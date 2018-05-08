@@ -1,7 +1,7 @@
 # nightwatch-e2e
 Nightwatch E2E Test is create for Nightwatch website automated testing.
 
-[![Build Status](https://travis-ci.org/nightwatchjs/nightwatch.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
+[![Build Status](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
 
 Development
 -----------
