@@ -6,7 +6,6 @@ const config = {
   "src_folders": ["./tests/TC"],
   "page_objects_path": "./tests/pages",
   "custom_commands_path": "./tests/commands",
-  "custom_assertions_path" : "./tests/assertions",
   "output_folder": "./reports",
   "disable_colors": false,
 
