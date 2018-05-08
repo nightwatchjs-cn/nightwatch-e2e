@@ -32,7 +32,6 @@ const config = {
       "desiredCapabilities": {
         "browserName": "chrome",
         "acceptSslCerts": true,
-        "marionette": false,
         "chromeOptions" : {
           "args" : ["chrome"] //chrome, headless
         }
