@@ -2,12 +2,15 @@ language: node_js
 sudo: false
 node_js:
   - "6"
+addons:
+  apt:
+    packages:
+      - oracle-java8-set-default
 
 before_script:
   - mv sample.env .env
   - npm install
   - node nightwatch.conf.js
-  - oracle-java8-set-default
 
 script:
   - npm test
