@@ -1,6 +1,5 @@
 # nightwatch-e2e
-这个repository是通过对http://nightwatchjs.org/官方网站的E2E测试，来展示如何在实际项目中使用Nightwatchjs
-
+这个repository是通过对http://nightwatchjs.org/ 官方网站的E2E测试来展示如何在实际项目中使用Nightwatchjs自动化测试框架。
 
 [![Build Status](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
 
@@ -18,7 +17,6 @@ $ npm install
 $ node nightwatch.conf.js               // 下载 webdriver and selenium
 $ cp sample.env .env                    // 复制样例环境文件来准备本地环境变量
 ```
-
 ### 运行E2E测试
 ```
 $ npm test                              // Run whole test
