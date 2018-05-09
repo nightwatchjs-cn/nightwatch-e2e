@@ -1,5 +1,7 @@
 # nightwatch-e2e
-Nightwatch E2E Test is create for Nightwatch website automated testing.
+This repository is used to show you how to use Nightwatchjs in real projects through E2E testing on the official website http://nightwatchjs.org/
+
+[中文](https://github.com/nightwatchjs-cn/nightwatch-e2e/blob/master/README.CN.md)
 
 [![Build Status](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
 
@@ -9,6 +11,7 @@ Development
 ### Prerequisite
 
 * Install Node.js > 8.0.0 [Download](https://nodejs.org/en/download/)
+* Install JDK 8 [Download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 ```
 $ git clone git@github.com:nightwatchjs-cn/nightwatch-e2e.git
 $ cd nightwatch-e2e
@@ -22,11 +25,5 @@ $ cp sample.env .env                    // copy sample environment and change th
 $ npm test                              // Run whole test
 $ npm test tests/TC/TC45/login.js       // Run certain test
 $ npm test tests/TC/TC45                // Run a group of test
-
-Offial command usage bellow
-
-$ node nightwatch.js                    // Run whole test
-$ node nightwatch.js tests/TC/TC45      // Run certain test
-$ node nightwatch.js --tag login        // Run tests based on tags
 ```
 More run test information can reference nightwatchjs [Development Guide.](http://nightwatchjs.org/guide/#running-tests)
