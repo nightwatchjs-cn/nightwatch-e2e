@@ -5,7 +5,7 @@
   "description": "Nightwatch e2e testing",
   "main": "index.js",
   "scripts": {
-    "test": "npm run eslint && node ./config/nightwatch.js",
+    "test": "npm run eslint && node ./nightwatch.js",
     "eslint": "node ./node_modules/eslint/bin/eslint.js --color -c .eslintrc tests/ --ignore-path .eslintignore"
   },
   "devDependencies": {},
