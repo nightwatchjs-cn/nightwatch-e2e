@@ -1,5 +1,5 @@
 # nightwatch-e2e
-This repository is used to show you how to use Nightwatchjs in real projects through E2E testing on the official website http://nightwatchjs.org/ -> [中文文档](https://github.com/nightwatchjs-cn/nightwatch-e2e/blob/master/README.CN.md)
+This repository is used to show you the structure and how to use Nightwatchjs in real projects through E2E testing on the official website http://nightwatchjs.org/ -> [中文版本](https://github.com/nightwatchjs-cn/nightwatch-e2e/blob/master/README.CN.md)
 
 [![Build Status](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
 

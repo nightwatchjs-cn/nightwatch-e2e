@@ -1,5 +1,5 @@
 # nightwatch-e2e
-这个repository是通过对http://nightwatchjs.org/ 官方网站的E2E测试来展示如何在实际项目中使用Nightwatchjs自动化测试框架。
+这个repository是通过对http://nightwatchjs.org/ 官方网站的E2E测试来展示项目结构以及如何在实际项目中使用Nightwatchjs自动化测试框架。
 
 [![Build Status](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
 
