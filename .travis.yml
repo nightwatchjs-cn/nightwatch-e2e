@@ -9,7 +9,7 @@ node_js:
 before_script:
   - mv sample.env .env
   - npm install
-  - node nightwatch.js
+  - node nightwatch.conf.js
 
 script:
   - npm test
