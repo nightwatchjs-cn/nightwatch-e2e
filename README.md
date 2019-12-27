@@ -2,6 +2,7 @@
 This repository is used to show you the structure and how to use Nightwatchjs in real projects through E2E testing on the official website http://nightwatchjs.org/ -> [中文版本](https://github.com/nightwatchjs-cn/nightwatch-e2e/blob/master/README.CN.md)
 
 [![Build Status](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/def20dd879ec4767afcc18810591311d)](https://www.codacy.com/manual/xianpeng.shen/nightwatch-e2e?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shenxianpeng/nightwatch-e2e&amp;utm_campaign=Badge_Grade)
 
 Development
 -----------
