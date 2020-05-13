@@ -2,7 +2,10 @@
 
 这个 Repository 是通过对 http://nightwatchjs.org/ 官方网站进行简单的 E2E 测试，以展示在实际项目中使用 Nightwatchjs 自动化测试框架和项目的目录结构。
 
+[![CircleCI](https://circleci.com/gh/nightwatchjs-cn/nightwatch-e2e/tree/master.svg?style=svg)](https://circleci.com/gh/nightwatchjs-cn/nightwatch-e2e/tree/master)
 [![Build Status](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e.svg?branch=master)](https://travis-ci.org/nightwatchjs-cn/nightwatch-e2e)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/def20dd879ec4767afcc18810591311d)](https://www.codacy.com/manual/xianpeng.shen/nightwatch-e2e?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shenxianpeng/nightwatch-e2e&amp;utm_campaign=Badge_Grade)
+
 
 ## 如何使用
 
