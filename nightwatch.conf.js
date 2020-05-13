@@ -15,7 +15,7 @@ const config = {
     "host": "127.0.0.1",
     "port": 4444,
     "cli_args": {
-      "webdriver.chrome.driver": "./bin/chromedriver"
+      "webdriver.chrome.driver": "./bin/chromedriver.exe"
     }
   },
 
@@ -50,17 +50,8 @@ const config = {
 
 module.exports = config;
 
-/**
- * selenium-download does exactly what it's name suggests;
- * downloads (or updates) the version of Selenium (& chromedriver)
- * on your localhost where it will be used by Nightwatch.
- /the following code checks for the existence of `selenium.jar` before trying to run our tests.
-*/
-require('fs').stat(BINPATH + 'selenium.jar', function (err, stat) {
-  if (err || !stat || stat.size < 1) {
-    require('selenium-download').ensure(BINPATH, function(error) {
-      if (error) throw new Error(error); // no point continuing so exit!
-      console.log('✔ Selenium & Chromedriver downloaded to:', BINPATH);
-    });
-  }
+var selenium = require('selenium-download');
+selenium.ensure(__dirname + '/bin', function (error) {
+  if (error) console.error(error.stack);
+  process.exit(0);
 });

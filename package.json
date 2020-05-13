@@ -23,7 +23,7 @@
   "dependencies": {
     "env2": "^2.2.0",
     "eslint": "^4.6.1",
-    "selenium-download": "^2.0.12",
+    "selenium-download": "^2.0.15",
     "nightwatch": "^0.9.19"
   }
 }
